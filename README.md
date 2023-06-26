@@ -73,3 +73,5 @@ $ python3 main_timegan.py --data_name stock --seq_len 24 --module gru
 -   generated_data: generated synthetic data
 -   metric_results: discriminative and predictive scores
 -   visualization: PCA and tSNE analysis
+
+rand
