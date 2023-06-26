@@ -35,7 +35,7 @@ def timegan (ori_data, parameters):
     - generated_data: generated time-series data
   """
   # Initialization on the Graph
-  tf.reset_default_graph()
+  tf.compat.v1.reset_default_graph()
 
   # Basic Parameters
   no, seq_len, dim = np.asarray(ori_data).shape
